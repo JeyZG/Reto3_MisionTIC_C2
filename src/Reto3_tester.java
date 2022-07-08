@@ -3,14 +3,13 @@ import Moodle.*;
 import TarjetaDeCine.*;
 import Partido.*;
 
-
 public class Reto3_tester {
 
     public static void main(String[] args) {
 
-        //Moodle_tester();
+        Moodle_tester();
         //TarjetaDeCine_tester();
-        Partido_tester();
+        //Partido_tester();
 
     }
 
@@ -66,7 +65,6 @@ public class Reto3_tester {
         System.out.println("Escalafón: " + Jane.getEscalafon());
 
     }
-
     public static void TarjetaDeCine_tester() {
 
         String id = "0123";
